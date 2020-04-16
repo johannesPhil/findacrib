@@ -149,7 +149,7 @@ export default {
             }
         }
 
-      this.$axios.post('https://findacrib.heliohost.org/add_agent.php',{
+      this.$axios.post('http://findacrib.heliohost.org/add_agent.php',{
 
         name: this.name,
         phone: this.phone,
