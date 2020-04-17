@@ -145,7 +145,7 @@ export default {
 
       var axiosOpt = {
             headers: {
-                'Content-Type': '/text/plain'
+                'Content-Type': 'application/x-www-form-urlencoded'
             }
         }
 
