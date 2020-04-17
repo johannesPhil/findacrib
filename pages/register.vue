@@ -145,16 +145,16 @@ export default {
 
       var axiosOpt = {
             headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
+                'Content-Type': '/text/plain'
             }
         }
 
       this.$axios.get('https://findheim.000webhostapp.com/add_agent.php',{
 
-        // name: this.name,
-        // phone: this.phone,
-        // mail: this.mail,
-        // password: this.password
+        name: this.name,
+        phone: this.phone,
+        mail: this.mail,
+        password: this.password
         
       }, axiosOpt)
       .then(response =>{
