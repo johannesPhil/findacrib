@@ -149,7 +149,7 @@ export default {
             }
         }
 
-      this.$axios.get('https://findheim.000webhostapp.com/add_agent.php',{
+      this.$axios.post('https://findheim.000webhostapp.com/add_agent.php',{
 
         name: this.name,
         phone: this.phone,
