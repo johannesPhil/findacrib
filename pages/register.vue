@@ -159,6 +159,7 @@ export default {
       }, axiosOpt)
       .then(response =>{
         console.log(response.statusText)
+        console.log(response)
       })
       .catch(error => {
         console.log(error)
